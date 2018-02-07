@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Georgia", Times, Serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*main Section */
+.main {
+    width: 80%;
+    margin: 48px auto;
+}
+.edit{
+    text-align: center;
+
+}
+.quotes{
+    text-align: center;
+}
+
+.quote{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    width: calc(25%- 48px);
+    margin: 32px;
+    padding: 16px;
+    vertical-align: top;
+    background-color: #fff6e0;
+
+}
+
+.quote.first-in-line{
+    margin-left: 0;
+}
+
+.quote.last-in-line{
+    margin-right: 0;
+}
+
+.quote .info{
+     margin-top: 20px;
+     font-size: 12px;
+     font-family: "Roboto",sans-serif;
+     color: #ccc;
+}
+
+.quote.info a{
+    color: #ccc;
+}
+.quote.info a:hover,
+.quote.info a:active{
+    color: #aaa;
+}
+
+.quote.delete{
+    position: absolute;
+    top: 0;
+    right: 4px;
+    font-family: "sans-serif";
+}
+
+.quote.delete a{
+    color: #bbb;
+    text-decoration: none;
+}
+
+.quote.delete a:hover,
+.quote.delete a:active{
+    color: red;
+}
